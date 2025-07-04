@@ -2135,6 +2135,7 @@ footer {
 
     .socialss {
         display: flex;
+        flex-direction: row;
     }
 
     .img-19 {
