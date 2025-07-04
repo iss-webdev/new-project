@@ -855,7 +855,7 @@ main img:hover {
     box-shadow: 0 1px 2px black;
     background-color: white;
     margin-top: -600px;
-    margin-left: 800px;
+    margin-left: 750px;
     z-index: 2;
     position: absolute;
     overflow: hidden;
@@ -1047,8 +1047,6 @@ p {
     transform: scale(1.03);
 }
 
-
-
 .pfp {
     width: 80px;
     border-radius: 50px;
@@ -1105,7 +1103,7 @@ p {
 .hd {
     background-color: #ffffff;
     width: 500px;
-    height: 500px;
+    height: 550px;
     margin-left: 100px;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.362);
     border-radius: 20px;
@@ -1141,7 +1139,6 @@ p {
 }
 
 .img-15 {
-    margin-top: 10px;
     font-size: 25px;
     background-color: rgba(12, 151, 197, 0.43);
     padding: 8px;
@@ -1164,7 +1161,7 @@ p {
 .info {
     margin-left: 30px;
     background-color: rgb(255, 255, 255);
-    height: 700px;
+    height: 600px;
     border-radius: 20px;
     width: 800px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.263);
@@ -1192,14 +1189,15 @@ p {
     z-index: 1000;
 }
 
-.e{
-    margin-left: 30px;
+.e {
+    margin-left: 420px;
+    margin-top: -90px;
 }
 
 .ema {
-    margin-top: 20px;
-    margin-left: 30px;
-    width: 350px;
+    margin-top: 18px;
+    margin-left: 410px;
+    width: 370px;
     height: 50px;
     font-size: 15px;
     border-radius: 10px;
@@ -1207,10 +1205,10 @@ p {
     pointer-events: auto;
 }
 
-.ema::placeholder{
+.ema::placeholder {
     text-indent: 30px;
     color: rgba(128, 128, 128, 0.457);
-    z-index: 1000;   
+    z-index: 1000;
 }
 
 .sub {
@@ -1246,12 +1244,12 @@ p {
     border-color: rgba(12, 151, 197, 0.43);
 }
 
-#mes::placeholder{
+#mes::placeholder {
     text-indent: 30px;
     color: rgba(128, 128, 128, 0.472);
 }
 
-.btn-send{
+.btn-send {
     margin-top: 20px;
     margin-left: 350px;
     padding: 10px;
@@ -1264,73 +1262,73 @@ p {
     cursor: pointer;
 }
 
-.btn-send:hover{
+.btn-send:hover {
     transform: scale(1.05);
 }
 
-footer{
+footer {
     background-color: rgba(12, 151, 197, 0.182);
-    height: 300px;
+    height: 160px;
     margin-top: 50px;
 }
 
-.foot{
+.foot {
     display: flex;
     gap: 30px;
 }
 
-.img-16{
+.img-16 {
     margin-left: 50px;
     margin-top: 50px;
 }
 
-.size{
+.size {
     width: 350px;
 }
 
-.pp-9-1{
+.pp-9-1 {
     margin-left: 110px;
     font-size: 17px;
     margin-top: -40px;
 
 }
 
-.pp-10-1{
+.pp-10-1 {
     margin-left: 110px;
     margin-top: 10px;
     font-size: 15px;
 }
 
-.pp-9{
+.pp-9 {
     margin-top: 50px;
     font-size: 15px;
 }
 
-.pp-11{
+.pp-11 {
     margin-top: 76px;
     margin-left: -92px;
     font-size: 15px;
 }
 
-.pp-12{
+.pp-12 {
     margin-top: 100px;
     margin-left: -190px;
 }
 
-.pp-10{
+.pp-10 {
     margin-top: 75px;
     margin-left: -95px;
 }
 
-.size-1{
+.size-1 {
     width: 350px;
 }
 
-.size-2{
+.size-2 {
     width: 350px;
 }
 
-.pp-11-1{
+.pp-11-1 {
     margin-left: 110px;
     font-size: 15px;
     margin-top: 10px;
@@ -1342,27 +1340,25 @@ footer{
     margin-top: 5px;
 }
 
-.socials{
+.socials {
     margin-top: 50px;
     font-size: 17px;
 }
 
-.img-19{
-     margin-top: 80px;
+.img-19 {
+    margin-top: 80px;
     font-size: 20px;
     border: 2px solid;
     border-color: rgb(242, 242, 242);
     color: gray;
     padding: 10px;
     border-radius: 50%;
-    margin-left: -10px;
+    margin-left: 10px;
 }
 
-.img-20{
+.img-20 {
     margin-left: -110px;
 }
-
-
 
 .fade-in {
     opacity: 0;
@@ -2025,6 +2021,135 @@ footer{
         transition: transform .3s ease-out;
     }
 
+    .pp-5 {
+        margin-left: 150px;
+        margin-top: 900px;
+        width: 90px;
+        padding: 10px;
+        border-radius: 20px;
+    }
 
+    .pg-6 h3 {
+        margin-left: 130px;
+        margin-top: 20px;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .pg-6 h3 span {
+        color: rgb(12, 151, 197);
+    }
+
+    .her {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hd {
+        background-color: #ffffff;
+        width: 315px;
+        height: 550px;
+        margin-left: 20px;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.362);
+        border-radius: 20px;
+    }
+
+    .pp-6 {
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .empty {
+        margin-top: 30px;
+    }
+
+    .img-14 {
+        font-size: 35px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .pp-7 {
+        margin-left: 65px;
+        margin-top: -37px;
+        font-size: 17px;
+        font-weight: lighter;
+    }
+
+    .pp-8 {
+        width: 200px;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    .info {
+        margin-left: 20px;
+        margin-top: 30px;
+        width: 315px;
+        height: 730px;
+    }
+
+    .nani {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .joe {
+        width: 260px;
+    }
+
+    .ema {
+        width: 250px;
+    }
+
+    #sub {
+        width: 250px;
+    }
+
+    #mes {
+        width: 250px;
+        height: 140px;
+    }
+
+    .btn-send {
+        margin-left: 100px;
+    }
+
+    footer {
+        background-color: rgba(12, 151, 197, 0.182);
+        height: 600px;
+        margin-top: 50px;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .socials {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    .socialss {
+        display: flex;
+    }
+
+    .img-19 {
+        margin-top: -20px;
+        font-size: 30px;
+        border: 2px solid;
+        border-color: rgb(242, 242, 242);
+        color: gray;
+        padding: 10px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+
+    .img-20 {
+        margin-left: 40px;
+    }
 
 }
