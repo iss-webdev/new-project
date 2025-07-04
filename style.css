@@ -2129,28 +2129,10 @@ footer {
     }
 
     .socials {
-        font-size: 20px;
-        margin-left: 40px;
+        display: none;
     }
 
     .socialss {
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
-
-    .img-19 {
-        margin-top: -20px;
-        font-size: 30px;
-        border: 2px solid;
-        border-color: rgb(242, 242, 242);
-        color: gray;
-        padding: 10px;
-        border-radius: 50%;
-        margin-left: 10px;
-    }
-
-    .img-20 {
-        margin-left: 40px;
-    }
-
 }
